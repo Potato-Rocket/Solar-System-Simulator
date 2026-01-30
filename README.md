@@ -1,4 +1,4 @@
-# Spaceflight-Simulator
+q# Spaceflight-Simulator
 
 A Java application to simulate 3D gravitational physics. Currently, this project is in early stages of development. Various integration methods may be implemented via the `Integrator` class, such as:
 

@@ -1,4 +1,4 @@
-q# Spaceflight-Simulator
+# Spaceflight-Simulator
 
 A Java application to simulate 3D gravitational physics. Currently, this project is in early stages of development. Various integration methods may be implemented via the `Integrator` class, such as:
 
@@ -16,15 +16,14 @@ This program allows both the graphical parameters and the initial conditions of 
 
 The simulator requires configuration files to be placed in a specific location:
 
-1. Create a configuration directory:
-   - **Linux/macOS**: Create a folder named `solarsystemsim` inside your `~/.config/` directory:
-     ```
-     mkdir -p ~/.config/solarsystemsim
-     ```
-   - **Windows**: Create a folder named `solarsystemsim` inside your user home directory's `.config` folder:
-     ```
-     mkdir %USERPROFILE%\.config\solarsystemsim
-     ```
+- **Linux/macOS**: Create a folder named `solarsystemsim` inside your `~/.config/` directory:
+  ```
+  mkdir -p ~/.config/solarsystemsim
+  ```
+- **Windows**: Create a folder named `solarsystemsim` inside your user home directory's `.config` folder:
+  ```
+  mkdir %USERPROFILE%\.config\solarsystemsim
+  ```
 
 ### Automatic Configuration Setup
 
@@ -36,7 +35,7 @@ For your convenience, we provide scripts to automatically set up the configurati
   ```
 - **Windows**: Run the `autoconfig.bat` script:
   ```
-  autoconfig.bat
+  ./autoconfig.bat
   ```
 
 These scripts will create the necessary directory structure and copy the example configuration files for you.
@@ -78,7 +77,7 @@ When you start the program, the view will automatically encompass every one of y
 - J: Zoom in
 - K: Zoom out
 
-To increase or decrease the virtual time-scale, use the following keybindings:
+To increase or decrease the virtual timescale, use the following keybindings:
 
 - Q: Slow down time
 - E: Speed up time
